@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F28FEF5C1469A88700E87A29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28FEF5B1469A88700E87A29 /* UIKit.framework */; };
+		F28FEF5E1469A88700E87A29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28FEF5D1469A88700E87A29 /* Foundation.framework */; };
+		F28FEF601469A88700E87A29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28FEF5F1469A88700E87A29 /* CoreGraphics.framework */; };
+		F28FEF661469A88800E87A29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F28FEF641469A88800E87A29 /* InfoPlist.strings */; };
+		F28FEF681469A88800E87A29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FEF671469A88800E87A29 /* main.m */; };
+		F28FEF6C1469A88800E87A29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FEF6B1469A88800E87A29 /* AppDelegate.m */; };
+		F28FEF6F1469A88800E87A29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28FEF6E1469A88800E87A29 /* ViewController.m */; };
+		F28FEF721469A88800E87A29 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F28FEF701469A88800E87A29 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F28FEF571469A88700E87A29 /* Noughts and Crosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noughts and Crosses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28FEF5B1469A88700E87A29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F28FEF5D1469A88700E87A29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F28FEF5F1469A88700E87A29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F28FEF631469A88800E87A29 /* Noughts and Crosses-Info.plist */ = {isa = PBXFileReference; path = "Noughts and Crosses-Info.plist"; sourceTree = "<group>"; };
+		F28FEF651469A88800E87A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F28FEF671469A88800E87A29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F28FEF691469A88800E87A29 /* Noughts and Crosses-Prefix.pch */ = {isa = PBXFileReference; path = "Noughts and Crosses-Prefix.pch"; sourceTree = "<group>"; };
+		F28FEF6A1469A88800E87A29 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F28FEF6B1469A88800E87A29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F28FEF6D1469A88800E87A29 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F28FEF6E1469A88800E87A29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F28FEF711469A88800E87A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F28FEF541469A88700E87A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28FEF5C1469A88700E87A29 /* UIKit.framework in Frameworks */,
+				F28FEF5E1469A88700E87A29 /* Foundation.framework in Frameworks */,
+				F28FEF601469A88700E87A29 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F28FEF4C1469A88700E87A29 = {
+			isa = PBXGroup;
+			children = (
+				F28FEF611469A88800E87A29 /* Noughts and Crosses */,
+				F28FEF5A1469A88700E87A29 /* Frameworks */,
+				F28FEF581469A88700E87A29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F28FEF581469A88700E87A29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28FEF571469A88700E87A29 /* Noughts and Crosses.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F28FEF5A1469A88700E87A29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F28FEF5B1469A88700E87A29 /* UIKit.framework */,
+				F28FEF5D1469A88700E87A29 /* Foundation.framework */,
+				F28FEF5F1469A88700E87A29 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F28FEF611469A88800E87A29 /* Noughts and Crosses */ = {
+			isa = PBXGroup;
+			children = (
+				F28FEF6A1469A88800E87A29 /* AppDelegate.h */,
+				F28FEF6B1469A88800E87A29 /* AppDelegate.m */,
+				F28FEF6D1469A88800E87A29 /* ViewController.h */,
+				F28FEF6E1469A88800E87A29 /* ViewController.m */,
+				F28FEF701469A88800E87A29 /* ViewController.xib */,
+				F28FEF621469A88800E87A29 /* Supporting Files */,
+			);
+			path = "Noughts and Crosses";
+			sourceTree = "<group>";
+		};
+		F28FEF621469A88800E87A29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F28FEF631469A88800E87A29 /* Noughts and Crosses-Info.plist */,
+				F28FEF641469A88800E87A29 /* InfoPlist.strings */,
+				F28FEF671469A88800E87A29 /* main.m */,
+				F28FEF691469A88800E87A29 /* Noughts and Crosses-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F28FEF561469A88700E87A29 /* Noughts and Crosses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28FEF751469A88800E87A29 /* Build configuration list for PBXNativeTarget "Noughts and Crosses" */;
+			buildPhases = (
+				F28FEF531469A88700E87A29 /* Sources */,
+				F28FEF541469A88700E87A29 /* Frameworks */,
+				F28FEF551469A88700E87A29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noughts and Crosses";
+			productName = "Noughts and Crosses";
+			productReference = F28FEF571469A88700E87A29 /* Noughts and Crosses.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F28FEF4E1469A88700E87A29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F28FEF511469A88700E87A29 /* Build configuration list for PBXProject "Noughts and Crosses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F28FEF4C1469A88700E87A29;
+			productRefGroup = F28FEF581469A88700E87A29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F28FEF561469A88700E87A29 /* Noughts and Crosses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F28FEF551469A88700E87A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28FEF661469A88800E87A29 /* InfoPlist.strings in Resources */,
+				F28FEF721469A88800E87A29 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F28FEF531469A88700E87A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28FEF681469A88800E87A29 /* main.m in Sources */,
+				F28FEF6C1469A88800E87A29 /* AppDelegate.m in Sources */,
+				F28FEF6F1469A88800E87A29 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F28FEF641469A88800E87A29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28FEF651469A88800E87A29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F28FEF701469A88800E87A29 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28FEF711469A88800E87A29 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F28FEF731469A88800E87A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F28FEF741469A88800E87A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F28FEF761469A88800E87A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noughts and Crosses/Noughts and Crosses-Prefix.pch";
+				INFOPLIST_FILE = "Noughts and Crosses/Noughts and Crosses-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F28FEF771469A88800E87A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noughts and Crosses/Noughts and Crosses-Prefix.pch";
+				INFOPLIST_FILE = "Noughts and Crosses/Noughts and Crosses-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F28FEF511469A88700E87A29 /* Build configuration list for PBXProject "Noughts and Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28FEF731469A88800E87A29 /* Debug */,
+				F28FEF741469A88800E87A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28FEF751469A88800E87A29 /* Build configuration list for PBXNativeTarget "Noughts and Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28FEF761469A88800E87A29 /* Debug */,
+				F28FEF771469A88800E87A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F28FEF4E1469A88700E87A29 /* Project object */;
+}
